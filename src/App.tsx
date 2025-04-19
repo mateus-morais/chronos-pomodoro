@@ -1,16 +1,18 @@
 import "./styles/theme.css";
 import "./styles/global.css";
-import { Container } from "./components/container";
+
+import { Heading } from "./components/Heading";
+import { Container } from "./components/Container";
 
 export function App() {
   return (
     <>
       <Container>
-        <section>Logo</section>
+        <Heading>Logo</Heading>
       </Container>
 
       <Container>
-        <section>Menu</section>
+        <Heading>Menu</Heading>
       </Container>
     </>
   );
