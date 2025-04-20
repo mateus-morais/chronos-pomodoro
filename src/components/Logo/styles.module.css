@@ -4,3 +4,7 @@
   justify-content: center;
   gap: 2.4rem;
 }
+
+.logoLink {
+  background: blue;
+}
