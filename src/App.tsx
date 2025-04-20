@@ -54,11 +54,11 @@ export function App() {
             <DefaultButton icon={<PlayCircleIcon />} />
           </div>
 
-          <Container>
-            <Footer />
-          </Container>
-
         </form>
+      </Container>
+
+      <Container>
+        <Footer />
       </Container>
     </>
   );
